@@ -2,10 +2,18 @@
 
 Draw Yu-Gi-Oh! Card.
 
+Original: https://github.com/Doarakko/draw
+
+## Why forked?
+
+Not working to display image on Mac terminal.
+
+https://github.com/mattn/go-sixel/issues/15
+
 ## Install
 
 ```
-go install github.com/Doarakko/draw@latest
+go install github.com/ykws/draw@latest
 ```
 
 ## Usage
@@ -14,12 +22,10 @@ go install github.com/Doarakko/draw@latest
 draw
 ```
 
-![](sample.gif)
-
 ## Credits
 
+- [Draw Yu-Gi-Oh! Card](https://github.com/Doarakko/draw) by [@Doarakko](https://github.com/Doarakko)
 - [Yu-Gi-Oh! API by YGOPRODeck](https://db.ygoprodeck.com/api-guide/)
-- [nyanko](https://github.com/mattn/nyanko)
 
 ## License
 
